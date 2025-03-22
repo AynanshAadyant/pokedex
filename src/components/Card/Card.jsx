@@ -15,7 +15,6 @@ export default function Card( {pokemon, index } ) {
             setImage( "default.img" );
         })
     }
-    console.log( )
     useEffect( () => {
         getImg();
     }, [] );

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
     return (
-      <div className="top-0 left-0 w-full p-5 backdrop-blur-lg bg-gray-500/50 flex items-center sm:flex-col">
+      <div className="top-0 left-0 w-full p-5 backdrop-blur-lg bg-gray-500/50 flex items-center sm:flex-col sticky">
         <div className="container mx-auto flex justify-between items-center flex-wrap gap-5 px-10 py-2">
           {/* Left Section - Logo & Home */}
           <div className="flex items-center flex-row gap-5">

@@ -1,10 +1,10 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import ReadMorePage from "../../pages/ReadMorePage.jsx";
+import AbilitiesCard from "../AbilitiesCard/AbilitiesCard";
 
 export default function PokemonInfo() {
     const {id} = useParams();
     return(
-        <ReadMorePage id = {id} />
+        <AbilitiesCard id = {id} />
     )
 }
