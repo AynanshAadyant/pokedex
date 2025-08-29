@@ -24,8 +24,8 @@ export default function ReadMoreCard( {id} )
     if (!pokemon) return <div className="text-white text-center p-10">Loading...</div>;
 
     return (
-          <div className="content h-full p-10">
-            <div className="card p-8 border-2 border-gray-50 rounded-3xl flex flex-wrap flex-row gap-10">
+          <div className="content p-10">
+            <div className="card p-8 border-2 border-gray-50 rounded-3xl flex flex-wrap flex-row gap-10 h-full">
                 <div className="image">
                     <img src={pokemon.sprites.other.dream_world.front_default} alt="" />
                     <img src={pokemon.sprites.other.showdown.front_default} alt="" className="h-20" />
